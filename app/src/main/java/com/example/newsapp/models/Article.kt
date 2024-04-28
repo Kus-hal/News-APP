@@ -8,7 +8,6 @@ import com.example.newsapp.models.Source
 @Entity(
     tableName = "articles"
 )
-
 data class Article(
     @PrimaryKey(autoGenerate = true)
     var id:Int? = null,

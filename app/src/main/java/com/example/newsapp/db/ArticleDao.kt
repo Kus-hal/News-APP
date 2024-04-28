@@ -7,7 +7,6 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import com.example.newsapp.models.Article
-
 //annotation for ROOM to know that this is an interface that define the function for us
 @Dao
 interface ArticleDao {
